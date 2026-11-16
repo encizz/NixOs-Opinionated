@@ -15,8 +15,12 @@ let
     github-copilot = {
       packages = [ 
         pkgs.github-copilot-cli
-        pkgs.github-copilot-intellij-agent];
-      unfree = [ "github-copilot-cli" ];
+        pkgs.github-copilot-intellij-agent
+      ];
+      unfree = [ 
+        "github-copilot-cli"
+        "github-copilot-intellij-agent"
+      ];
     };
   };
 
