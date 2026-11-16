@@ -32,7 +32,7 @@ in
     home.packages = with pkgs; [
       lazyssh
       any-nix-shell
-      nom
+      nix-output-monitor
       up
       nixfmt
       jq
