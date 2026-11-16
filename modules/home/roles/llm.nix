@@ -13,7 +13,9 @@ let
   # they require. Adding a provider means adding an entry here.
   providers = {
     github-copilot = {
-      packages = [ pkgs.github-copilot-cli ];
+      packages = [ 
+        pkgs.github-copilot-cli
+        pkgs.github-copilot-intellij-agent];
       unfree = [ "github-copilot-cli" ];
     };
   };
