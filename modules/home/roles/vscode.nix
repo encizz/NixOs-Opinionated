@@ -34,6 +34,7 @@ in
   config = lib.mkIf cfg.enable (
     lib.mkMerge [
       {
+        opinionated.nixLd.enable = true;
         # Language servers picked up by the editor from $PATH.
         home.packages = [
           pkgs.nil
