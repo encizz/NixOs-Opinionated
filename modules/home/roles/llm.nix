@@ -43,7 +43,6 @@ in
         "com.intellij.mcpServer"
         "com.intellij.ml.llm"
         "com.agentport.jetbrains-acp"
-        "com.intellij.air"
       ];
       description = "AI plugins added to IntelliJ IDEA when the dev role is enabled.";
     };
